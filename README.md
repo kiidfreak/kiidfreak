@@ -3,13 +3,13 @@
 <img src="https://komarev.com/ghpvc/?username=kiidfreak&style=plastic&label=PROFILE+VIEWS&color=grey" alt="kiidfreakviewscounter" />
 
 - 🔭 I’m currently working on Website and App development
-- 🌱 I’m currently learning Java and Penetration Testing 
+- 🌱 I’m currently learning C#, Java and Penetration Testing 
 - 💬 Ask me about any of these topics if interested
 - ⚡ Fun fact: No kinky windows stuff!
 
 <table style="width:100%">
 <tr>
-    <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/tenor.gif" height="200" width="377" ></th>
+    <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/tenor.gif" height="auto" width="auto" ></th>
     <th><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharojha&layout=compact&hide=Ruby" /></th>
     <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/cybergeek.gif" height="200" width="377" ></th>
   </tr>
