@@ -10,8 +10,8 @@
 <table style="width:100%">
 <tr>
     <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/tenor.gif" height="auto" width="auto" ></th>
-    <th><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharojha&layout=compact&hide=Ruby" /></th>
-    <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/cybergeek.gif" height="200" width="377" ></th>
+    <th><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharojha&layout=compact&hide=Ruby" height="auto" width="auto" /></th>
+    <th><img align='right' src="https://github.com/kiidfreak/kiidfreak/blob/main/cybergeek.gif" height="auto" width="auto" ></th>
   </tr>
 </table>
 
