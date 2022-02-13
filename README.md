@@ -17,7 +17,7 @@
 
 ### - 🐱‍👤 About me:  
 
-### kiidfreak.github.io/immanuelmwendia/portfolio.html
+### 
 
 ### - 📫 How to reach me:
 
