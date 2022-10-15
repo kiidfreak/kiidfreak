@@ -1,4 +1,4 @@
-### Hi there 👋 , I'm Immanuel Maina
+### Hi there 👋 ,
 
 <img src="https://komarev.com/ghpvc/?username=kiidfreak&style=plastic&label=PROFILE+VIEWS&color=grey" alt="kiidfreakviewscounter" />
 
