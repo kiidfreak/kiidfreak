@@ -15,15 +15,15 @@
 ### - 📫 How to reach me:
 
 <a href="https://twitter.com/sirkirsm" target="_blank">
-  <img align="left" alt="Immanuel's Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+  <img align="left" alt="Immanuel's Twitter" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/twitter.png" />
 </a>
 <a href="mailto:imaina671@gmail.com" target="_blank">
-  <img align="left" alt="Immanuel's Email" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />
+  <img align="left" alt="Immanuel's Email" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/gmail.png" />
 </a>
 <a href="https://www.instagram.com/kid.freak" target="_blank">
-  <img align="left" alt="Immanuel's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+  <img align="left" alt="Immanuel's Instagram" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/instagram.png" />
 </a>
 <a href="https://www.linkedin.com/in/immanuel-maina-a177bb19b/" target="_blank">
-  <img align="left" alt="Immanuel's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+  <img align="left" alt="Immanuel's Linkdein" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/linkedin.png" />
 </a>
 
