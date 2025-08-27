@@ -21,7 +21,7 @@
 
 
 
-# 🚀 Current 2025 Roadmap: Quant Finance + ZK-Proofs Mastery
+# Current 2025 Roadmap: Quant Finance + ZK-Proofs Mastery
 
 This repo is my public commitment: by **December 2025**, I will understand and *apply* both  
 - **Quantitative Finance (stochastic processes, risk, modeling)**  
