@@ -1,94 +1,269 @@
-### Hi there 👋 ,
+# 🚀 2026 Roadmap: Quant Finance + ZK-Proofs Mastery
 
-<img src="https://komarev.com/ghpvc/?username=kiidfreak&style=plastic&label=PROFILE+VIEWS&color=grey" alt="kiidfreakviewscounter" />
+This repository is my public commitment:
 
-- 🔭 I’m currently working on business software developments!
-- 🌱 I’m currently learning improvemnts using AI(LLMs and ML) & blockchain tech.(haskell and Rust)!
-- 💬 Ask me about any of these topics if interested
-- ⚡ Fun fact: No kinky windows stuff!
+By **December 2026**, I will deeply understand and apply:
 
+- **Quantitative Finance** (stochastic processes, risk, modeling)
+- **Zero-Knowledge Proofs** (zk-SNARKs, zk-STARKs, cryptographic systems)
 
-### 📫 How to reach me:
+My goal is to **fuse both domains into real-world systems** at the intersection of:
 
-<div >
-    <a href="https://twitter.com/mrmwendia" target="_blank">
-      <img align="left" alt="Immanuel's Twitter" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/twitter.png" />
-    </a>
-    <a href="mailto:imaina671@gmail.com" target="_blank">
-      <img align="left" alt="Immanuel's Email" width="22px" src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons@master/png/gmail.png" />
-    </a>
-</div>
-
---
-
-# Current 2025 Roadmap: Quant Finance + ZK-Proofs Mastery
-
-This repo is my public commitment: by **December 2025**, I will understand and *apply* both  
-- **Quantitative Finance (stochastic processes, risk, modeling)**  
-- **Zero-Knowledge Proofs (zk-SNARKs, zk-STARKs, cryptographic protocols)**  
-
-so I can fuse them into real blockchain + trading applications.  
+> State • Uncertainty • Verification
 
 ---
 
-## 🎯 Core Goals
-1. Build strong foundations in **probability, stochastic calculus, and risk concepts**.  
-2. Learn the **algebra + finite field math** that underpins zk-proofs.  
-3. Implement at least **one mini zk-app** (proof-of-funds or private voting).  
-4. Publish **2–3 GitHub projects** blending quant + crypto.  
+## 🎯 Core Objectives
+
+1. **Deterministic Financial State Engine**  
+   A backend where every state transition is provable and replayable.
+
+2. **Real-Time Stability Model**  
+   A system that stabilizes noisy inputs using feedback control.
+
+3. **Verifiable Computation**  
+   Prove computations occurred **without revealing inputs**.
+
+4. **Unified System (Quant + ZK + Backend)**  
+   Combine:
+   - State management
+   - Uncertainty modeling
+   - Cryptographic verification
 
 ---
 
-## 📆 Month-by-Month Plan
-
-### **September 2025 – Groundwork**
-- 📖 MIT Quant Finance Lectures (playlist) – focus on **probability, regression, risk basics**  
-- 📘 Text: *Probability for Finance* (Sheldon Ross / Shreve notes optional)  
-- 🧮 Exercises: probability distributions, conditional expectation  
-- 🛠️ Project: Repo setup → `notes/`, `exercises/`, `summaries/` folders  
+# 📆 Month-by-Month Plan
 
 ---
 
-### **October 2025 – Bridge Math**
-- 📖 Topics: **Linear Algebra review**, **Finite Fields**, **Group Theory**  
-- 📘 Text: *A Computational Introduction to Number Theory and Algebra* (Victor Shoup)  
-- 🛠️ Code mini-labs: implement finite field operations in Python  
-- ✍️ Write blog #1: “Why zk-proofs need algebra (explained for builders)”  
+## 🗓️ MAY — Control + Backend Foundations
+
+### 🎯 Outcome
+Understand **state, instability, and control** — in code.
+
+### 🔧 Build
+
+#### Week 1–2: C++ Stability System
+- Simulate unstable variable (angle / drift)
+- Implement **PID controller**
+- Add noise (IMU-style simulation)
+
+#### Week 2–3: Rust Ledger Engine
+- Accounts + transfers
+- Transaction hashing (block chaining)
+- Enforce invariants (no invalid states)
+
+#### Week 4: Go API Layer
+- Expose ledger via REST API
+- Logging + validation
+- Rate limiting
+
+### 🚀 Deliverable
+**“Stability + Ledger System”**
+
+- C++ → control simulation  
+- Rust → state engine  
+- Go → system interface  
 
 ---
 
-### **November 2025 – Cryptography Core**
-- 📖 Study zk-SNARK primer + ZK-STARK overview (Vitalik, Ariel Gabizon, StarkWare papers)  
-- 📘 Resource: *Zero-Knowledge Proofs: An Illustrated Primer* (Matthew Green blog + papers)  
-- 🛠️ Hands-on:  
-  - Build **zk-proof toy example** using Circom or Halo2  
-  - Explore a private “proof of funds” circuit  
-- ✍️ Blog #2: “From fields to proofs: building my first zk-circuit”  
+## 🗓️ JUNE — State Estimation + Real Systems Thinking
+
+### 🎯 Outcome
+Shift from **reactive control → predictive systems**
+
+### 🔧 Build
+
+#### State Estimation Engine
+- Simulate noisy sensor data
+- Implement:
+  - Complementary filter **OR**
+  - Basic Kalman filter
+
+#### Backend Enhancements
+- Event sourcing in ledger
+- Replay system state from logs
+
+#### Real-Time System
+- WebSocket or streaming layer
+- Live state updates
+
+### 🚀 Deliverable
+**“State Estimation Engine”**
+
+System that:
+- Reconstructs true state from noise  
+- Logs and replays full system history  
 
 ---
 
-### **December 2025 – Integration + Showcase**
-- 🎯 Goal: Merge **quant + zk** in one demonstrator project.  
-- Example ideas:  
-  - **Private risk model**: prove your portfolio VaR without revealing positions.  
-  - **Fair trading bot log**: zk-proof that trades followed risk limits.  
-- 🛠️ Deliverables:  
-  - `project-final/` repo with full code + README  
-  - Final write-up: “Quant + ZK: Lessons from my 2025 roadmap”  
-- ✍️ Blog #3: Year-in-review on Medium + GitHub  
+## 🗓️ JULY — Quant Systems (Uncertainty Control)
+
+### 🎯 Outcome
+Treat markets as **unstable dynamic systems**
+
+### 🔧 Build
+
+#### Risk Engine
+Inputs:
+- Trades
+
+Outputs:
+- Drawdown
+- Exposure
+- Risk violations
+
+#### Additions
+- Monte Carlo simulation
+- Basic Value-at-Risk (VaR)
+
+#### Integration
+- Connect to Rust backend
+
+### 🚀 Deliverable
+**“Trading Risk Stabilizer”**
+
+System that:
+- Detects instability (risk)
+- Enforces constraints  
 
 ---
 
-## 🔧 Tools & Resources
-- Languages: Python (finance), Rust/Solidity (zk & blockchain)  
-- Frameworks: Circom, Halo2, Scroll zkEVM testnet  
-- References: MIT OCW, Shoup’s book, Shreve’s *Stochastic Finance*  
+## 🗓️ AUGUST — ZK Foundations (Trust Layer)
+
+### 🎯 Outcome
+Understand how to **prove without revealing**
+
+### 📚 Learn + Implement
+
+- Finite fields (from scratch)
+- Constraint systems (R1CS basics)
+
+### 🔧 Build
+
+#### Toy ZK System
+Prove:
+balance > X
+
+Without revealing:
+
+balance
+
+
+### 🛠 Tools
+- Circom **or**
+- Halo2
+
+### 🚀 Deliverable
+**“First Verifiable Computation”**
 
 ---
 
-## ✅ Accountability
-- Weekly GitHub commits (notes, code, summaries).  
-- Monthly blog posts (3 total).  
-- Final zk+quant project shipped in **December 2025**.  
+## 🗓️ SEPTEMBER — ZK + Backend Integration
+
+### 🎯 Outcome
+Combine **state + proof**
+
+### 🔧 Build
+
+#### Proof-of-Funds API
+- Backend holds private data
+- Generate cryptographic proof
+- API verifies proof
+
+#### Features
+- Proof verification endpoint
+- Proof logging system
+
+### 🚀 Deliverable
+**“Verifiable Backend System”**
 
 ---
+
+## 🗓️ OCTOBER — Advanced Math + Optimal Control
+
+### 🎯 Outcome
+Move beyond PID → **optimal control systems**
+
+### 📚 Learn
+- Linear algebra (applied)
+- State-space models
+
+### 🔧 Upgrade
+
+Replace:
+- PID controller
+
+With:
+- **LQR (Linear Quadratic Regulator)**
+
+### 🚀 Deliverable
+**“Optimal Control System”**
+
+---
+
+## 🗓️ NOVEMBER — (Quant + ZK)
+
+### 🎯 Outcome
+Build something **rare and defensible**
+
+### 🔧 Build
+
+#### Proof of Risk Compliance
+
+System proves:
+- Trades followed risk rules
+
+Without revealing:
+- Actual trades
+
+### 🔗 Combines
+- Risk engine (July)
+- ZK system (Aug–Sept)
+
+### 🚀 Deliverable
+**“Private Risk Engine”**
+
+---
+
+## 🗓️ DECEMBER — Final System + Positioning
+
+### 🎯 Outcome
+Package everything into a **flagship artifact**
+
+### 🔧 Build
+
+#### Final Project (Name Matters)
+
+Examples:
+- Verifiable Trading Engine  
+- Trustless Risk System  
+- Proof-Based Financial State Machine  
+
+### 📦 Deliver
+- Full GitHub repository
+- Architecture diagram
+- Technical blog write-up
+
+### 🚀 Deliverable
+**Some Flagship System**
+
+---
+
+# 🧠 Meta Strategy
+
+This roadmap is not about tutorials.
+
+It is about building:
+- Systems thinking  
+- Mathematical maturity  
+- Verifiable infrastructure  
+
+---
+
+# ⚔️ Final Standard
+
+By the end of this roadmap, I will be able to say:
+
+> “I don’t just model systems.  
+> I control them, verify them, and prove their correctness.”
