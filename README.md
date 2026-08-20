@@ -1,269 +1,209 @@
-# 🚀 2026 Roadmap: Quant Finance + ZK-Proofs Mastery
+# 🚀 2026 Roadmap — Systems, Quant & ZK
 
-This repository is my public commitment:
+Public commitment to mastering **systems engineering, quantitative finance, and verifiable computation**.
 
-By **December 2026**, I will deeply understand and apply:
-
-- **Quantitative Finance** (stochastic processes, risk, modeling)
-- **Zero-Knowledge Proofs** (zk-SNARKs, zk-STARKs, cryptographic systems)
-
-My goal is to **fuse both domains into real-world systems** at the intersection of:
-
-> State • Uncertainty • Verification
-
----
+> **State • Uncertainty • Control • Verification**
 
 ## 🎯 Core Objectives
 
-1. **Deterministic Financial State Engine**  
-   A backend where every state transition is provable and replayable.
-
-2. **Real-Time Stability Model**  
-   A system that stabilizes noisy inputs using feedback control.
-
-3. **Verifiable Computation**  
-   Prove computations occurred **without revealing inputs**.
-
-4. **Unified System (Quant + ZK + Backend)**  
-   Combine:
-   - State management
-   - Uncertainty modeling
-   - Cryptographic verification
+* **State Engine** — deterministic, replayable state transitions
+* **Control System** — feedback, stability, estimation
+* **Quant Engine** — stochastic modeling, risk, Monte Carlo
+* **ZK Layer** — prove computations without exposing private inputs
+* **Unified System** — State + Risk + Control + Proof
 
 ---
 
-# 📆 Month-by-Month Plan
+# 📆 Roadmap
+
+## JULY — Quant + Risk
+
+**Learn**
+
+* Probability
+* Stochastic processes
+* Monte Carlo
+* VaR / CVaR
+* Risk modeling
+
+**Build**
+
+* Trading risk engine
+* Exposure + drawdown monitoring
+* Risk constraint system
+
+**Deliverable:** `Trading Risk Stabilizer`
 
 ---
 
-## 🗓️ MAY — Control + Backend Foundations
+## AUGUST — ZK
 
-### 🎯 Outcome
-Understand **state, instability, and control** — in code.
+**Learn**
 
-### 🔧 Build
+* Finite fields
+* R1CS
+* zk-SNARKs
+* zk-STARKs
+* Verifiable computation
 
-#### Week 1–2: C++ Stability System
-- Simulate unstable variable (angle / drift)
-- Implement **PID controller**
-- Add noise (IMU-style simulation)
+**Build**
 
-#### Week 2–3: Rust Ledger Engine
-- Accounts + transfers
-- Transaction hashing (block chaining)
-- Enforce invariants (no invalid states)
+```text
+Private State
+     ↓
+Computation
+     ↓
+ZK Proof
+     ↓
+Verifier
+```
 
-#### Week 4: Go API Layer
-- Expose ledger via REST API
-- Logging + validation
-- Rate limiting
-
-### 🚀 Deliverable
-**“Stability + Ledger System”**
-
-- C++ → control simulation  
-- Rust → state engine  
-- Go → system interface  
+**Deliverable:** `Verifiable Computation`
 
 ---
 
-## 🗓️ JUNE — State Estimation + Real Systems Thinking
+## SEPTEMBER — State + Proof
 
-### 🎯 Outcome
-Shift from **reactive control → predictive systems**
+**Build**
 
-### 🔧 Build
+**Proof-of-Funds API**
 
-#### State Estimation Engine
-- Simulate noisy sensor data
-- Implement:
-  - Complementary filter **OR**
-  - Basic Kalman filter
+* Private financial state
+* Deterministic computation
+* ZK proof generation
+* Verification endpoint
+* Proof logging
 
-#### Backend Enhancements
-- Event sourcing in ledger
-- Replay system state from logs
-
-#### Real-Time System
-- WebSocket or streaming layer
-- Live state updates
-
-### 🚀 Deliverable
-**“State Estimation Engine”**
-
-System that:
-- Reconstructs true state from noise  
-- Logs and replays full system history  
+**Deliverable:** `Verifiable Backend`
 
 ---
 
-## 🗓️ JULY — Quant Systems (Uncertainty Control)
+## OCTOBER — Optimal Control
 
-### 🎯 Outcome
-Treat markets as **unstable dynamic systems**
+**Learn**
 
-### 🔧 Build
+* Linear algebra
+* State-space models
+* Controllability
+* Observability
+* LQR
 
-#### Risk Engine
-Inputs:
-- Trades
+**Build**
 
-Outputs:
-- Drawdown
-- Exposure
-- Risk violations
+```text
+State → Estimator → LQR → Plant → Feedback
+```
 
-#### Additions
-- Monte Carlo simulation
-- Basic Value-at-Risk (VaR)
-
-#### Integration
-- Connect to Rust backend
-
-### 🚀 Deliverable
-**“Trading Risk Stabilizer”**
-
-System that:
-- Detects instability (risk)
-- Enforces constraints  
+**Deliverable:** `Optimal Control System`
 
 ---
 
-## 🗓️ AUGUST — ZK Foundations (Trust Layer)
+## NOVEMBER — Quant + ZK
 
-### 🎯 Outcome
-Understand how to **prove without revealing**
+**Build**
 
-### 📚 Learn + Implement
+### Private Risk Engine
 
-- Finite fields (from scratch)
-- Constraint systems (R1CS basics)
-
-### 🔧 Build
-
-#### Toy ZK System
 Prove:
-balance > X
 
-Without revealing:
+```text
+Risk constraints satisfied
+```
 
-balance
+without revealing:
 
+```text
+Trades
+Positions
+Strategy
+```
 
-### 🛠 Tools
-- Circom **or**
-- Halo2
-
-### 🚀 Deliverable
-**“First Verifiable Computation”**
-
----
-
-## 🗓️ SEPTEMBER — ZK + Backend Integration
-
-### 🎯 Outcome
-Combine **state + proof**
-
-### 🔧 Build
-
-#### Proof-of-Funds API
-- Backend holds private data
-- Generate cryptographic proof
-- API verifies proof
-
-#### Features
-- Proof verification endpoint
-- Proof logging system
-
-### 🚀 Deliverable
-**“Verifiable Backend System”**
+**Deliverable:** `Proof of Risk Compliance`
 
 ---
 
-## 🗓️ OCTOBER — Advanced Math + Optimal Control
+## DECEMBER — Unified System
 
-### 🎯 Outcome
-Move beyond PID → **optimal control systems**
+Combine:
 
-### 📚 Learn
-- Linear algebra (applied)
-- State-space models
+```text
+State
+ ↓
+Dynamics
+ ↓
+Estimation
+ ↓
+Control
+ ↓
+Risk
+ ↓
+Policy
+ ↓
+Action
+ ↓
+Ledger
+ ↓
+Proof
+```
 
-### 🔧 Upgrade
+**Deliver**
 
-Replace:
-- PID controller
+* GitHub repository
+* Architecture diagram
+* Tests
+* Technical write-up
+* Working demonstration
 
-With:
-- **LQR (Linear Quadratic Regulator)**
-
-### 🚀 Deliverable
-**“Optimal Control System”**
-
----
-
-## 🗓️ NOVEMBER — (Quant + ZK)
-
-### 🎯 Outcome
-Build something **rare and defensible**
-
-### 🔧 Build
-
-#### Proof of Risk Compliance
-
-System proves:
-- Trades followed risk rules
-
-Without revealing:
-- Actual trades
-
-### 🔗 Combines
-- Risk engine (July)
-- ZK system (Aug–Sept)
-
-### 🚀 Deliverable
-**“Private Risk Engine”**
+**Flagship:** `Verifiable Financial State Machine`
 
 ---
 
-## 🗓️ DECEMBER — Final System + Positioning
+# 🔭 Bridge to 2027
 
-### 🎯 Outcome
-Package everything into a **flagship artifact**
+2026:
 
-### 🔧 Build
+> **Understand the primitives.**
 
-#### Final Project (Name Matters)
+2027:
 
-Examples:
-- Verifiable Trading Engine  
-- Trustless Risk System  
-- Proof-Based Financial State Machine  
+> **Build autonomous systems.**
 
-### 📦 Deliver
-- Full GitHub repository
-- Architecture diagram
-- Technical blog write-up
+Focus areas:
 
-### 🚀 Deliverable
-**Some Flagship System**
+* Physical systems
+* Propulsion
+* FADEC
+* Autonomous vehicles
+* Quant agents
+* Sovereign Agent Runtime
+* Verifiable agents
+* Agent networks
 
----
+Long-term:
 
-# 🧠 Meta Strategy
-
-This roadmap is not about tutorials.
-
-It is about building:
-- Systems thinking  
-- Mathematical maturity  
-- Verifiable infrastructure  
-
----
+```text
+STATE
+ ↓
+CONTROL
+ ↓
+RISK
+ ↓
+POLICY
+ ↓
+ACTION
+ ↓
+PROOF
+ ↓
+RUNTIME
+ ↓
+AGENT
+ ↓
+NETWORK
+ ↓
+INSTITUTION
+```
 
 # ⚔️ Final Standard
 
-By the end of this roadmap, I will be able to say:
-
-> “I don’t just model systems.  
-> I control them, verify them, and prove their correctness.”
+> **I don't just model systems.
+> I control them, verify them, and build them to operate autonomously.**
